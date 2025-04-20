@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-git add .
 model = joblib.load("st/models/random_forest_model.pkl")  
 
 st.title("🧠 Parkinson's Disease Prediction")

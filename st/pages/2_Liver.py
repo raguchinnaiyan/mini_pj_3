@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load trained liver model 
 model = joblib.load("st/models/random_forest_model.pkl")  
 
 st.title("🧪 Liver Disease Prediction")

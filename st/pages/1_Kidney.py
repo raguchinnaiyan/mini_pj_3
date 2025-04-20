@@ -10,7 +10,7 @@ import pandas as pd
 import joblib  
 
 
-model = joblib.load("st/models/logistic_regression_model.pkll")  
+model = joblib.load("st/models/logistic_regression_model.pkl")  
 
 
 # Input fields for all selected features

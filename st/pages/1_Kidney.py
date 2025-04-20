@@ -9,8 +9,8 @@ st.write("Fill the patient details below to predict Chronic Kidney Disease (CKD)
 import pandas as pd
 import joblib  
 
-# Load your trained model (make sure you save it as .pkl or .joblib before using here)
-model = joblib.load("C:/Users/ragu/Min_pj_3/Stremlet_UI/pages/logistic_regression_model.pkl")  # Replace with your model filename
+
+model = joblib.load("st/models/logistic_regression_model.pkll")  
 
 
 # Input fields for all selected features

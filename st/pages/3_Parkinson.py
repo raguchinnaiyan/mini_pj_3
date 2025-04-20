@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load trained model
-model = joblib.load("C:/Users/ragu/Min_pj_3/Stremlet_UI/pages/best_random_forest.pkl")  # Make sure this model uses only these 8 features
+git add .
+model = joblib.load("st/models/random_forest_model.pkl")  
 
 st.title("🧠 Parkinson's Disease Prediction")
 st.write("Enter the patient's voice measurements to check for Parkinson’s Disease.")

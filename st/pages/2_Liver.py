@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained liver model 
-model = joblib.load("C:/Users/ragu/Min_pj_3/Stremlet_UI/pages/random_forest_model.pkl")  
+model = joblib.load("st/models/random_forest_model.pkl")  
 
 st.title("🧪 Liver Disease Prediction")
 st.write("Enter the patient's basic liver panel values to predict liver disease status.")

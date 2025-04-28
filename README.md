@@ -32,6 +32,6 @@ git clone https://github.com/raguchinnaiyan/mini_pj_3.git cd mini_pj_3 streamlit
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/your-username/mini_pj_3.git
+git clone https://github.com/ragu/mini_pj_3.git
 cd mini_pj_3
 pip install -r requirements.txt
